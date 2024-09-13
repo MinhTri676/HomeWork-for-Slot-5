@@ -1,0 +1,91 @@
+div.logo {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+div.title {
+  text-align: center;
+  color: #15b8bd;
+}
+
+.body-img img {
+  width: 100%;
+}
+
+.body-content {
+  font-size: 22px;
+}
+
+div.large-img img {
+  width: 100%;
+}
+
+div.smaller-img img {
+  width: 100%;
+  height: 166px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.content-large-img {
+  position: absolute;
+  bottom: 270px;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.content-img {
+  position: absolute;
+  bottom: 110px;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+div.house-img img {
+  width: 100%;
+}
+
+div.house-content h3 {
+  font-size: 22px;
+  text-align: center;
+  color: rgb(194, 140, 70);
+}
+
+div .house-content p {
+  font-size: larger;
+}
+
+.footer {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #15b8bd;
+  text-align: center;
+  color: #ffff;
+}
+
+@media screen and (max-width: 768px) {
+  div.large-img img {
+    margin-bottom: 20px;
+  }
+
+  div.content-large-img {
+    margin-bottom: 60px;
+  }
+
+  div.smaller-img img {
+    width: 100%;
+    height: 387px;
+  }
+
+  div.content-img {
+    margin-bottom: 210px;
+  }
+}
